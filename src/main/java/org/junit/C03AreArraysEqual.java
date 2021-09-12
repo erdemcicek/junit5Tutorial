@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class C03AreArraysEqual {
 	
-
 	public boolean areEquals(Object[] a, Object[] b) {
 		
 		Arrays.sort(a);
@@ -12,6 +11,4 @@ public class C03AreArraysEqual {
 		
 		return Arrays.equals(a, b);
 	}
-	
-
 }
